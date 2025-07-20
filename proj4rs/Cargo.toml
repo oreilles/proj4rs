@@ -41,9 +41,6 @@ log = "0.4"
 #codegen-units = 1
 #strip = "debuginfo"
 
-[lib]
-crate-type = ["cdylib", "rlib"]
-
 [features]
 default = ["multi-thread", "binaries"]
 binaries = []
